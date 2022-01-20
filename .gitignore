@@ -3,3 +3,4 @@ node_modules
 *-token.json
 i18n-api-token.json
 locales
+languages
