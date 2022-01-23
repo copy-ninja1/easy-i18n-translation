@@ -51,7 +51,7 @@ async function easyTranslation({ service = 'google', locales = ['en'], character
         }
 
     }
-    return translatedData
+    return JSON.stringify(translatedData)
 }
 
 module.exports = easyTranslation
